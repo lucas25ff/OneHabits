@@ -27,12 +27,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (email.getText().toString().isEmpty() || pass.getText().toString().isEmpty()) {
-                    Toast.makeText(MainActivity.this, "Datos incorrectos o faltantes", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Datos faltantes", Toast.LENGTH_SHORT).show();
                 }else{
-                    if (email.getText().toString().equals("ppedersoli@gmail.com") || pass.getText().toString().equals("holaprofe")) {
+                    if (email.getText().toString().equals("ppedersoli@gmail.com") && pass.getText().toString().equals("holaprofe")) {
                         Intent goDashboard = new Intent(MainActivity.this, dashboard.class);
                         startActivity(goDashboard);
                         Toast.makeText(MainActivity.this, "Inicio Correcto", Toast.LENGTH_SHORT).show();
+                    } else{
+                        Toast.makeText(MainActivity.this, "Datos incorrectos", Toast.LENGTH_SHORT).show();
                     }
                 }
             }
