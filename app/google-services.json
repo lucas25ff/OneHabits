@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "6195776561",
+    "project_id": "one-habits",
+    "storage_bucket": "one-habits.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6195776561:android:b986f09bba6e8e97389910",
+        "android_client_info": {
+          "package_name": "com.example.onehabits"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByR3u4d5rsKfL-rVZBZMOuHeMeJUDJ2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

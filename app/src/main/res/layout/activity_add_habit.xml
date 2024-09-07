@@ -33,7 +33,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress"
+            android:id="@+id/title"
             android:layout_width="296dp"
             android:layout_height="46dp"
             android:layout_marginStart="44dp"
@@ -46,14 +46,14 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/date"
             android:layout_width="296dp"
             android:layout_height="46dp"
             android:layout_marginStart="44dp"
             android:layout_marginTop="224dp"
             android:ems="10"
             android:hint="Fecha"
-            android:inputType="number|date"
+            android:inputType="date"
             android:textColorHint="@color/darkblue"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -72,6 +72,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
+            android:id="@+id/desc"
             android:layout_width="296dp"
             android:layout_height="46dp"
             android:layout_marginStart="44dp"
@@ -84,7 +85,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnAdd"
             android:layout_width="166dp"
             android:layout_height="49dp"
             android:layout_marginStart="112dp"

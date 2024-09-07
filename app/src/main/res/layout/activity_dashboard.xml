@@ -30,278 +30,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="345dp"
-        android:layout_height="69dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="152dp"
-        android:background="@drawable/bg_card"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="72dp"
-            android:layout_marginTop="12dp"
-            android:fontFamily="@font/lato_regular"
-            android:text="MEDITAR"
-            android:textSize="22dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <ImageView
-            android:id="@+id/imageView15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="11dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@mipmap/praying" />
-
-        <ImageView
-            android:id="@+id/imageView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="293dp"
-            android:layout_marginTop="22dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@mipmap/edit_gray" />
-
-        <ImageView
-            android:id="@+id/imageView17"
-            android:layout_width="14dp"
-            android:layout_height="13dp"
-            android:layout_marginStart="72dp"
-            android:layout_marginTop="45dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@mipmap/star" />
-
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="92dp"
-            android:layout_marginTop="40dp"
-            android:text="Nuevo"
-            android:textSize="15sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="345dp"
-        android:layout_height="69dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="400dp"
-        android:background="@drawable/bg_card"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="72dp"
-            android:layout_marginTop="12dp"
-            android:fontFamily="@font/lato_regular"
-            android:text="DORMIR"
-            android:textSize="22dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="DuplicateIds" />
-
-        <ImageView
-            android:id="@+id/imageView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="11dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@mipmap/moon"
-            tools:ignore="DuplicateIds" />
-
-        <ImageView
-            android:id="@+id/imageView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="293dp"
-            android:layout_marginTop="22dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@mipmap/edit_gray"
-            tools:ignore="DuplicateIds" />
-
-        <ImageView
-            android:id="@+id/imageView17"
-            android:layout_width="14dp"
-            android:layout_height="13dp"
-            android:layout_marginStart="72dp"
-            android:layout_marginTop="45dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@mipmap/star"
-            tools:ignore="DuplicateIds" />
-
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="92dp"
-            android:layout_marginTop="40dp"
-            android:text="Nuevo"
-            android:textSize="15sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="DuplicateIds" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="345dp"
-        android:layout_height="69dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="316dp"
-        android:background="@drawable/bg_card"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="72dp"
-            android:layout_marginTop="12dp"
-            android:fontFamily="@font/lato_regular"
-            android:text="LEER"
-            android:textSize="22dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="DuplicateIds" />
-
-        <ImageView
-            android:id="@+id/imageView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="11dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@mipmap/book"
-            tools:ignore="DuplicateIds" />
-
-        <ImageView
-            android:id="@+id/imageView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="293dp"
-            android:layout_marginTop="22dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@mipmap/edit_gray"
-            tools:ignore="DuplicateIds" />
-
-        <ImageView
-            android:id="@+id/imageView17"
-            android:layout_width="14dp"
-            android:layout_height="13dp"
-            android:layout_marginStart="72dp"
-            android:layout_marginTop="45dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@mipmap/star"
-            tools:ignore="DuplicateIds" />
-
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="92dp"
-            android:layout_marginTop="40dp"
-            android:text="Nuevo"
-            android:textSize="15sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="DuplicateIds" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="345dp"
-        android:layout_height="69dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="232dp"
-        android:background="@drawable/bg_card"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="72dp"
-            android:layout_marginTop="12dp"
-            android:fontFamily="@font/lato_regular"
-            android:text="BEBER AGUA"
-            android:textSize="22dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="DuplicateIds" />
-
-        <ImageView
-            android:id="@+id/imageView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="11dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@mipmap/glass"
-            tools:ignore="DuplicateIds" />
-
-        <ImageView
-            android:id="@+id/imageView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="293dp"
-            android:layout_marginTop="22dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@mipmap/edit_gray"
-            tools:ignore="DuplicateIds" />
-
-        <ImageView
-            android:id="@+id/imageView17"
-            android:layout_width="14dp"
-            android:layout_height="13dp"
-            android:layout_marginStart="72dp"
-            android:layout_marginTop="45dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@mipmap/star"
-            tools:ignore="DuplicateIds" />
-
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="92dp"
-            android:layout_marginTop="40dp"
-            android:text="Nuevo"
-            android:textSize="15sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="DuplicateIds" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageView
         android:id="@+id/imageView4"
@@ -344,10 +72,10 @@
         android:layout_marginStart="144dp"
         android:layout_marginTop="672dp"
         android:fontFamily="@font/staatliches_regular"
+        android:onClick="goCalendar"
         android:text="Calendario"
         android:textColor="@color/yellow"
         android:textSize="24dp"
-        android:onClick="goCalendar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -365,6 +93,22 @@
         android:textStyle="normal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="308dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="175dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listItem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical" />
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
