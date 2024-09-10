@@ -42,15 +42,8 @@ public class listItemAdapter extends FirestoreRecyclerAdapter<Items, listItemAda
         DocumentSnapshot documentSnapshot = getSnapshots().getSnapshot(viewHolder.getAbsoluteAdapterPosition());
         final String id = documentSnapshot.getId();
         viewHolder.title.setText(model.getNombre());
-        Timestamp timestamp = model.getFecha();
-        if (timestamp != null){
-            Date date = timestamp.toDate();
-            SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm", Locale.getDefault());
-            String formattedDate = sdf.format(date);
-            viewHolder.dateText.setText((formattedDate));
-        }else{
-            viewHolder.dateText.setText(model.getFecha());
-        }
+        viewHolder.dateText.setText(model.getFecha());
+
         viewHolder.deleteView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

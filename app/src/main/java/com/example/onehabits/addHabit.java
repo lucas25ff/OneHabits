@@ -39,7 +39,7 @@ public class addHabit extends AppCompatActivity {
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //crea variables de tipo "string" para guardar el texto q se inserte en cada campo
+                //creava riables de tipo "string" para guardar el texto q se inserte en cada campo
                 String title = titleTxt.getText().toString();
                 String desc = descTxt.getText().toString();
                 String date = dateTxt.getText().toString();

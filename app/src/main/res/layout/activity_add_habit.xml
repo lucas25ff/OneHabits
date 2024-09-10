@@ -53,20 +53,7 @@
             android:layout_marginTop="224dp"
             android:ems="10"
             android:hint="Fecha"
-            android:inputType="date"
-            android:textColorHint="@color/darkblue"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <EditText
-            android:id="@+id/editTextTime"
-            android:layout_width="296dp"
-            android:layout_height="46dp"
-            android:layout_marginStart="44dp"
-            android:layout_marginTop="288dp"
-            android:ems="10"
-            android:hint="Hora"
-            android:inputType="number|time"
+            android:inputType="text"
             android:textColorHint="@color/darkblue"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -76,7 +63,7 @@
             android:layout_width="296dp"
             android:layout_height="46dp"
             android:layout_marginStart="44dp"
-            android:layout_marginTop="360dp"
+            android:layout_marginTop="296dp"
             android:ems="10"
             android:hint="Anotaciones extras"
             android:inputType="text"
@@ -88,8 +75,8 @@
             android:id="@+id/btnAdd"
             android:layout_width="166dp"
             android:layout_height="49dp"
-            android:layout_marginStart="112dp"
-            android:layout_marginTop="436dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="376dp"
             android:backgroundTint="@color/darkblue"
             android:text="GUARDAR"
             android:textSize="20dp"
@@ -110,8 +97,8 @@
             android:id="@+id/imageView5"
             android:layout_width="22dp"
             android:layout_height="21dp"
-            android:layout_marginStart="306dp"
-            android:layout_marginTop="370dp"
+            android:layout_marginStart="304dp"
+            android:layout_marginTop="304dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@mipmap/edit_gray" />
@@ -120,8 +107,8 @@
             android:id="@+id/imageView9"
             android:layout_width="70dp"
             android:layout_height="67dp"
-            android:layout_marginStart="164dp"
-            android:layout_marginTop="504dp"
+            android:layout_marginStart="172dp"
+            android:layout_marginTop="432dp"
             android:onClick="goBackDash"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -136,16 +123,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@mipmap/calendar_black" />
-
-        <ImageView
-            android:id="@+id/imageView14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="306dp"
-            android:layout_marginTop="296dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@mipmap/clock_black" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
